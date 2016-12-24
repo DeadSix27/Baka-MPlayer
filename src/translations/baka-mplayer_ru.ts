@@ -552,7 +552,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA</source
     </message>
     <message>
         <source>open about dialog</source>
-        <translation>открыть диалог &laquo;о программе&raquo;</translation>
+        <translation>открыть диалог &lt;о программе&gt;</translation>
     </message>
     <message>
         <source>set mpv msg-level</source>
