@@ -679,7 +679,7 @@ void MpvHandler::LoadFileInfo()
     fileInfo.media_title = mpv_get_property_string(mpv, "media-title");
     // get length
     double len;
-    mpv_get_property(mpv, "length", MPV_FORMAT_DOUBLE, &len);
+    mpv_get_property(mpv, "duration", MPV_FORMAT_DOUBLE, &len);
     fileInfo.length                  = (int)len;
 
     LoadTracks();
